@@ -1,0 +1,18 @@
+/* Tailwind base setup */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global reset */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Root container */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

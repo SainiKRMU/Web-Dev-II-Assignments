@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #222;
+  color: white;
+}
+
+/* Form */
+.form {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.form input {
+  padding: 8px;
+  flex: 1;
+}
+
+.form button {
+  padding: 8px 12px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Pass/Fail */
+.pass {
+  color: green;
+  font-weight: bold;
+}
+
+.fail {
+  color: red;
+  font-weight: bold;
+}
