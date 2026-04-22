@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Event Dashboard</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <h1>Smart Event Dashboard</h1>
+
+    <div class="container">
+
+        <!-- Event Form -->
+        <div class="card">
+            <h2>Add New Event</h2>
+
+            <form id="eventForm">
+                <input type="text" id="title" placeholder="Event Title" required>
+
+                <input type="date" id="date" required>
+
+                <select id="category">
+                    <option value="Conference">Conference</option>
+                    <option value="Workshop">Workshop</option>
+                    <option value="Social">Social</option>
+                </select>
+
+                <textarea id="description" placeholder="Description"></textarea>
+
+                <button type="submit">Add Event</button>
+            </form>
+        </div>
+
+        <!-- Event List -->
+        <div class="card">
+            <h2>My Events</h2>
+            <div class="buttons">
+                <button id="clearBtn">Clear All</button>
+                <button id="sampleBtn">Add Sample</button>
+            </div>
+
+            <div id="eventList"></div>
+        </div>
+    </div>
+
+    <!-- DOM Demo -->
+    <div class="demo card">
+        <h2>DOM Manipulation Demo</h2>
+
+        <p id="demoText">
+            <strong>Bold Text</strong> with spaces
+        </p>
+
+        <button id="innerTextBtn">Show innerText</button>
+        <button id="innerHTMLBtn">Show innerHTML</button>
+        <button id="textContentBtn">Show textContent</button>
+
+        <p id="output"></p>
+    </div>
+
+<script src="script1.js"></script>
+</body>
+</html>
