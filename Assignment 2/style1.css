@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f7f4f5, #f48da4);
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title */
+h1 {
+    color: #2c2c2c;
+    font-weight: 500;
+    margin-bottom: 35px;
+    letter-spacing: 0.5px;
+}
+
+/* Cards */
+.weather-box,
+.history-box {
+    background: #ffffff;
+    padding: 28px;
+    margin: 15px 0;
+    width: 400px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    border: 1px solid #f0e6e8;
+    transition: all 0.25s ease;
+}
+
+.weather-box:hover,
+.history-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Input */
+input {
+    width: 65%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #e5dcdc;
+    background: #faf8f9;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.2s ease;
+}
+
+input:focus {
+    border-color: #d6a4a4;
+}
+
+/* Button */
+button {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: #d6a4a4;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin-left: 8px;
+}
+
+button:hover {
+    background-color: #c48f8f;
+}
+
+/* Result */
+#result {
+    margin-top: 15px;
+    padding: 12px;
+    background: #f9f6f7;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #eee;
+}
+
+/* Error */
+#error {
+    color: #b85c5c;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* List */
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+    margin-bottom: 8px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+li:hover {
+    background: #f3e9ea;
+}
